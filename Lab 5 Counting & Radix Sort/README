@@ -1,0 +1,8 @@
+Problem Introduction
+
+The goal of this experiment is to gain experience in working with two sorting Algorithms: Radix Sort and Counting Sort
+
+Tasks
+
+Write a program that takes a list and sorts it using Counting Sort.
+Write a program that takes a list and sorts it using Radix sort.
