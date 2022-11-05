@@ -1,0 +1,53 @@
+Problem Introduction
+
+The goal of this experiment exercise is to review Stacks and Linked List and understanding their operations.
+
+Tasks:
+
+Write a program to create a stack data structure (do not use the built-in stack class) using arrays. It should support Push, Pop and Peek operations.
+            To-do:
+
+Create a stack using arrays with an array size of 10.
+Push integers 20, 40, 60 into the stack.
+Print the items in stack.
+Pop the item from the stack and print the popped item.
+Peek the stack and print the top-most element of the stack (do not remove it)
+Print the stack.
+Expected Output:
+
+Items in the stack: 60, 40, 20
+
+Popped item is: 60
+
+Peeked item is: 40
+
+Items in the stack: 40, 20
+
+   2. Write a program to create a linked list structure. It should support insert and delete operations.
+
+            To-do:
+
+                  A.  Insert at the beginning of the Linked List:
+
+Insert a node with data value 60 in the first position.   
+Insert a node with data value 40 in the first position. 
+Insert a node with data value 20 in the first position.   
+                                 20 -> 40 -> 60
+
+     B. Print the linked list elements.
+
+     C. Delete the first element of the linked list and print the linked list. 
+
+                       40 -> 60
+
+     D. Delete the last element of the linked list and print the linked list.
+
+          40
+
+Expected Output:
+
+Items in the linked list: 20, 40, 60
+
+Items in the linked list after deleting the first element: 40, 60
+
+Items in the linked list after deleting the last element: 40
