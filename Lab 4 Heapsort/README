@@ -1,0 +1,14 @@
+Problem Introduction
+
+The goal of this experiment is to gain experience in working with binary heaps and priority queues.
+
+For this lab assignment, you should provide an implementation of Priority Queue ADT using Binary Heaps. Your program should:
+
+Accept a list of numbers as input
+Build a binary heap of the given elements
+Ask the user for the order of ascending or descending
+Output the proper ordering for the given list (Heap Sort)
+Print the min and max values from the list (per user’s request)
+Extract min or max value
+Modify values in the heap
+Add elements to the heap
