@@ -1,0 +1,12 @@
+Problem Introduction
+
+The goal of this experiment is to gain experience in working with two sorting algorithms “Selection Sort and Merge Sort” and analyzing their time complexities and comparing them to one another.
+
+Tasks
+
+Write a program that takes a list and sorts it using Selection Sort.
+Write a program that takes a list and sorts it using Merge sort with recursion.
+Compare the execution time for the following three conditions:
+The list is sorted
+The list is half sorted
+The list is reverses
