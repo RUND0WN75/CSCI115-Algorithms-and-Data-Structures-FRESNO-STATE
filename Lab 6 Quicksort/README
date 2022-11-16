@@ -1,0 +1,10 @@
+Problem Introduction
+
+The goal of this experiment is to gain experience in working with Quick Sort algorithms and analyzing their time complexities.
+
+Tasks
+
+Write a program that takes a list and sorts it using Quick Sort. You should implement your program in way that there is an option to choose either of the following pivot choices:
+Pivot Choice 1: The first element in the list
+Pivot Choice 2: A random element in the array.
+Pivot Choice 3: The median of the first, middle, and last elements in the array.
