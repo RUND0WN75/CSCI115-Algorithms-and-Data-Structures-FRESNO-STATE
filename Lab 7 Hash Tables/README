@@ -1,0 +1,26 @@
+The goal of this experiment is to gain experience in working with Hash tables:
+
+The Shakespeare play Romeo and Juliet contains 23,869 words of dialog, but only 3,684 unique words. This dialog, lowercased and stripped of all punctuation, is available as the file RomeoAndJuliet.txt Download RomeoAndJuliet.txt. In this week's lab assignment 
+on hashing, you will implement a hash table with linear probing as the collision resolution mechanism and then use this to count these unique words, as well as output some statistics about the efficiency of the hashing process. Here are the specifics. 
+Your program will consist of a single file, rjhash.cpp. You should declare a constant HASHSIZE = 4001 -- i.e., a prime number more than enough to hold all the unique words in the play -- and then implement a simplified hash-array class, where the array 
+itself has size HASHSIZE and value type int. This int value will be used to count occurrences of words in the text, and will be initialized to 0 when the array is created. The collision-resolution technique is linear probing, with p(k,i) = I.
+
+Tasks
+
+The hash array class should:
+
+1) Write a program that takes a file and read through it, store the words in the file using hash tables.
+
+2) Keep track of the number of elements in the hash array, and provide a method size() that returns this value.
+
+3) Provide an update (key) method that inserts key into the hash array if it doesn't already appear (setting its value to 1), or increments the value associated with key in the hash array if it is already there.
+
+4) Keep track of the number of array accesses that were required for the previous call to update, and provide a method probes() that returns this value (this value will be overwritten with each new call to update).
+
+5) The program should read words from its standard input until EOF and update the hash array accordingly, keeping statistics as it goes along. The statistics are stored in two arrays of size HASHSIZE:
+A) updates[i] keeps track of the number of updates that were done while the size of the hash array is equal to i.
+B) cost[i] keeps track of the total number of probes that were done while the size of the hash array is equal to i. The quotient of these two numbers represents a good estimate of the expected number of probes needed when the hash array has i elements in it.
+
+6) Print out:
+A) the number of unique words in the input file (i.e., the size of the hash array when the input has all been read)
+B) a comma-separated list of the ratios cost[i]/updates[i], each to two decimal places, where i: goes from 1 to the size of the hash array.
