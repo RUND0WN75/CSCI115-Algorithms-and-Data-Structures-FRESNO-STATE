@@ -1,0 +1,11 @@
+Problem Introduction
+
+The goal of this experiment is to gain experience in working with Binary Search Tree (BST).
+
+For this lab assignment, you will be providing an implementation of BST for the List-1.h 
+header file provided, which specifies a BST for integer type. Specifically, you will need to:
+1. Create a constructor that creates an empty tree in constant time.
+2. Insert a key into the tree in O (log n) time (assuming that the tree stays balanced); if the key is already in the tree, then this operation should have no effect.
+3. Print the tree in post-order traversal.
+4. Return the largest key in the tree in O (log n) time.
+5. Search a number for lookup in the tree. If found, display the value. If not found, display a message that it is not found.
