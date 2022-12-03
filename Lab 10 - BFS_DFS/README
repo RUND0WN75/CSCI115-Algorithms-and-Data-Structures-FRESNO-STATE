@@ -1,0 +1,7 @@
+For this lab assignment, you will be providing an implementation of Breadth First Search and Depth First Search of a graph with a
+maximum size of 10 nodes, numbered from 1 to 10. The input to the program will be the number of
+nodes and the adjacency list which are also the parameters to the two functions DFS and BFS. The
+output from your program will be the list of nodes visited in depth first order and a list of nodes visited in
+breadth first order.
+Hint #1: In both algorithms it is necessary to keep up with whether a node has been visited or not. This
+can be done with a one-dimensional int or Boolean array that contains 10 slots.
