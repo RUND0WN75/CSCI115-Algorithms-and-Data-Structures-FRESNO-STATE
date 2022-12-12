@@ -1,0 +1,22 @@
+Problem Introduction
+
+The goal of this experiment is to gain experience in working with Dijkstra’s algorithm to find shortest paths in a graph.
+
+For this lab assignment, you will be providing an implementation of Dijkstra’s algorithm for finding the shortest distances from the source vertex to the rest of the vertices. The graph is represented by adjacency matrix.
+
+The inputs of your program are the following:
+
+the number of vertices of the graph (V)
+the source vertex (S)
+adjacency matrix (G)
+The output of your program should be the shortest distance from source vertex to all the other vertices printed in a tabular format.
+
+Example output:
+
+Vertex          Distance from source vertex
+
+0                              0
+
+1                              2
+
+2                              1
