@@ -1,0 +1,11 @@
+Team project involving the comparison of running times using various data input sizes (10-100k) for the following algorithms: 
+1. Insertion sort
+2. Selection sort
+3. Bubble sort
+4. Merge sort
+5. Quicksort
+6. Heapsort
+7. Counting Sort
+8. Radix Sort
+
+Program is written in C++. 
